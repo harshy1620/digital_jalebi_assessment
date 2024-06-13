@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  color: #141414;
+}
+
+main{
+  box-sizing: border-box;
+  background-color: #6358DC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+}
+
+.auth-wrapper{
+  box-sizing: border-box;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  border-radius: 10px;
+  padding:30px 50px;
+}
+
+.img-wrapper{
+  width:50%
+}
+
+.img-wrapper img{
+  height: 100%;
+  width:100%;
+}
+
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  width:50%;
+  background:#fff;
+  padding:50px 20px;
+  border-radius: 10px;
+}
+
+.form-wrapper form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+}
+.form-wrapper h1{
+  margin-bottom: 20px;
+  font-size:40px;
+}
+
+.form-wrapper form input, .form-wrapper form button{
+  width:100%;
+  height:45px;
+  border: none;
+  border-radius: 5px;
+  font-size:15px;
+  font-weight: bold;
+  outline: none;
+
+}
+.form-wrapper form input{
+  box-sizing: border-box;
+  background-color: #ECECEC;
+  padding: 10px;
+  color:#141414;
+}
+
+.form-wrapper form button{
+  background-color: #6358DC;
+  color:#fff;
+  cursor: pointer;
+}
+
+.form-wrapper form a{
+  text-decoration: none;
+}
+
+.form-wrapper form a span{
+  color: #6358DC;
+}
+.home-wrapper{
+  
+}
+
+.Navbar{
+  height: 38px;
+  /* width: 100%; */
+  background-color:#081C3F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+ 
+}
+.button-search{
+  height:50px ;
+  max-width: 150px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(136, 123, 47);
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.logout-button{
+  height:50px ;
+  max-width: 1000px;
+  border: none;
+  border-radius:10px;
+  background-color: rgb(198, 137, 122);
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+.product-page-wrapper{
+  display: flex;
+  padding:50px 100px 0px 100px;
+  /* gap: 50px; */
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.left{
+  width: 30%;
+}
+.right{
+  width: 70%;
+
+}
+
+.cards-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+}
+.card{
+  height: 250px;
+  width: 400px;
+  margin-bottom: 30px;
+
+}
+
+@media  (max-width: 768px){
+  /* .home-wrapper .slider{
+    height: 100vh;
+  } */
+  .Navbar span{
+    font-size: 10px;
+  }
+}
